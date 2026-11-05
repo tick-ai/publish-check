@@ -1,0 +1,22 @@
+{
+  "name": "publish-check",
+  "version": "0.1.0",
+  "description": "Finds what is wrong with an npm package (broken main, exports, bin, types, files) before you publish it, without npm, a network or a build.",
+  "type": "module",
+  "bin": {
+    "publish-check": "publish-check.mjs"
+  },
+  "files": ["publish-check.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["npm", "publish", "package-json", "exports", "files", "lint", "ai-agents", "cli"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/publish-check.git"
+  }
+}
